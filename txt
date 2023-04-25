@@ -1,1 +1,9 @@
 Reference markers for batch correction are typically selected based on their biological relevance and technical reproducibility, such as markers that are commonly used to identify cell types or functional states. These markers should be consistently expressed across all batches and not be affected by batch effects. Commonly used reference markers include CD45, CD3, CD4, CD8, and CD19 in human blood samples.
+
+In general, reference samples should be consistently expressed across different batches and experiments, regardless of the isotype control used. Isotype controls are used to measure non-specific binding of antibodies and are not expected to differ between batches. However, it is still important to carefully select appropriate reference samples to ensure their consistency across batches.
+
+For example, in human blood samples, certain markers such as CD45 are typically used as reference markers for batch correction because they are expressed on all white blood cells and are not affected by batch effects. Reference samples for CD45 can be prepared separately and added to each sample, ensuring consistency across different batches.
+
+It is important to note that the use of reference samples does not completely eliminate batch effects, but rather helps to minimize their impact on downstream analysis. Careful consideration should be given to the selection and preparation of reference samples to ensure their reliability and consistency across different batches.
+
+
