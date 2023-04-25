@@ -1,0 +1,21 @@
+Introduction:
+Batch effects are a common challenge in cytometry data analysis, which can arise from technical variation during sample preparation and measurement. Batch effects can lead to spurious associations between different batches and can obscure biological variation, making it difficult to compare samples across batches. Batch correction methods are therefore crucial to minimize these effects and obtain more accurate and reliable results. One of the methods used for batch correction in cytometry data is the use of reference samples.
+
+Reference-based batch correction:
+Reference-based batch correction is a method that uses a reference sample to estimate and correct batch effects in the data. The reference sample is typically a sample that has been measured in each batch, and it is used to calibrate the data by aligning the distributions of the reference markers across batches. The aligned reference markers can then be used to correct the entire dataset.
+
+The steps involved in reference-based batch correction are as follows:
+
+Identify reference markers: The first step is to identify a set of markers that are consistently expressed across all batches and can be used as reference markers for batch correction. These markers should be selected based on their biological relevance and technical reproducibility.
+
+Estimate batch effects: The next step is to estimate the batch effects using the reference sample. This can be done by comparing the distribution of the reference markers across batches and identifying the sources of variation that are due to batch effects.
+
+Correct batch effects: Once the batch effects have been estimated, they can be corrected using various methods such as linear regression, normalization, or distance-based correction. The goal of batch correction is to minimize the differences between the distributions of the reference markers across batches, while preserving the biological variation.
+
+Validate correction: After batch correction, it is important to validate the correction by assessing the alignment of the reference markers across batches and the preservation of the biological variation. This can be done by visual inspection, clustering analysis, or principal component analysis.
+
+Applications of reference-based batch correction:
+Reference-based batch correction can be applied to a wide range of cytometry data, including flow cytometry and mass cytometry. It is particularly useful when working with large datasets that have been acquired over multiple days or with different instruments. It can also be applied to longitudinal studies, where the same samples are measured at different time points.
+
+Conclusion:
+Reference-based batch correction is a powerful method for minimizing batch effects in cytometry data. It can improve the accuracy and reliability of the results, and make it easier to compare samples across different batches. However, it is important to carefully select the reference markers and validate the correction to ensure that the biological variation is preserved.
